@@ -1,0 +1,8 @@
+Tela de Configuração do Ambiente:
+
+-Usuário especifica o SGBD
+-Devem ser mostrados os Benchmarks disponíveis para o SGBD selecionado (Método getBenchmarksSGBD da classe Fachada)
+-Usuário escolhe o Benchmark
+-Devem ser instanciadas as consultas para o Benchmark escolhido (Método configurarBenchmarkEscolhido da classe Fachada)
+-O usuário escolhe o tipo de teste (Iteração ou Tempo) e modo de teste (Sequencial ou Randômico)
+-Teste é iniciado
